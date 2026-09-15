@@ -1,0 +1,121 @@
+# .NET
+# ============================================================
+
+**/bin/
+**/obj/
+
+# Test results
+**/TestResults/
+*.trx
+
+# JetBrains Rider
+# ============================================================
+
+.idea/
+*.sln.iml
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Visual Studio
+# ============================================================
+
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+# ============================================================
+
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Logs
+# ============================================================
+
+logs/
+**/logs/
+*.log
+
+# Configuration / Secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+appsettings.Local.json
+appsettings.Development.json
+appsettings.Staging.json
+appsettings.Production.json
+
+# User secrets
+secrets.json
+
+# Database local files
+# ============================================================
+
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# ASP.NET uploaded files
+# ============================================================
+
+wwwroot/uploads/
+wwwroot/files/
+
+# Certificates / Private Keys
+# ============================================================
+
+*.pfx
+*.p12
+*.key
+
+# Coverage
+# ============================================================
+
+coverage/
+*.coverage
+*.coveragexml
+
+# Publish
+# ============================================================
+
+publish/
+**/publish/
+
+# Docker local override
+# ============================================================
+
+docker-compose.override.yml
+
+# OS
+# ============================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Temporary files
+# ============================================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
